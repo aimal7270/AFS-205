@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  dockerasignment:
+    image: dockerasignment
+    build:
+      context: .
+      dockerfile: ./Dockerfile
